@@ -3,6 +3,8 @@ import os
 
 client = discord.Client()
 
+token = 'Nzk3MzY1ODgxNzA1MjAxNjc0.X_la2A.MZZ2_a1_fQhs_3TYN02rK1w5_D0'
+
 @client.event
 async def on_ready():
   print('Bruh im Ready')
@@ -19,4 +21,4 @@ async def on_message(message):
         
   await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=".help"))
       
-client.run('Nzk3MzY1ODgxNzA1MjAxNjc0.X_la2A.MZZ2_a1_fQhs_3TYN02rK1w5_D0')
+client.run(token)
