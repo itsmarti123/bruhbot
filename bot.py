@@ -17,6 +17,6 @@ async def on_message(message):
     embedVar.add_field(name=".cat - Shows you some cute cats, .invite - Sends you an invite link for the server, .vote vote this server", value="Help", inline=False)
     await message.channel.send(embed=embedVar)
         
-      await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=".help"))
+  await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=".help"))
       
 client.run('Nzk3MzY1ODgxNzA1MjAxNjc0.X_la2A.MZZ2_a1_fQhs_3TYN02rK1w5_D0')
